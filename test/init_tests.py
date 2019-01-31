@@ -11,10 +11,11 @@ def app(request):
     return fixture # вернем переменную
 
 
+def test_login_user(app):
+    app.loginUser.login_user("AlexBold@mail.ruuuus", "12345")
 
 def test_test_getNewUser(app):
-    app.get_url()
-    app.create_acount("Boby Bush", "GBush@mail.ru")
+    app.session.create_new_acount("Boby Bush", "GBush@mail.ru")
     app.registration()
     app.add_user()
     app.add_information_about_user(Group(name="Bush", email="BushW@yahoo.com", password="11Boby_Miller1", gender="male",
