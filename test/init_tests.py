@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import pytest
-from parametrsGroup import Group
-from applcation import Application
+from model.parametrsGroup import Group
+from fixture.applcation import Application
 
 
 @pytest.fixture # спец. обоз. для инициал. фикстуры
@@ -14,10 +14,10 @@ def app(request):
 
 def test_test_getNewUser(app):
     app.get_url()
-    app.create_acount("Alex Gagorin", "Gagorin@mail.ru")
+    app.create_acount("Boby Bush", "GBush@mail.ru")
     app.registration()
     app.add_user()
-    app.add_information_about_user(Group(name="Mikle Miller", email="MillerW@yahoo.com", password="11Boby_Miller1", gender="male",
+    app.add_information_about_user(Group(name="Bush", email="BushW@yahoo.com", password="11Boby_Miller1", gender="male",
                                               hobbi="writter", name_dog="milli", adress="Moscow", inn="984209854"))
 
 

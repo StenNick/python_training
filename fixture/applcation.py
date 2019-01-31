@@ -8,7 +8,8 @@ class Application:
         self.wd.maximize_window()
         self.wd.implicitly_wait(60)
 
-    def get_url(self, wd):
+    def get_url(self):
+        wd = self.wd
         wd.get("http://users.bugred.ru/")
     def create_acount(self, new_login, new_email):
         wd = self.wd
