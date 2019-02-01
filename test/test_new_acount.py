@@ -11,7 +11,7 @@ def app(request):
 
 
 def test_create_new_user(app):
-    app.create_acount("Bob", "Bbababab@mail.ru")
+    app.create_acount("Anton Vodka", "Antons@mail.ru")
     app.registration()
     app.add_user()
-    app.add_information(name="ASA", email="ASADQhoo.com")
+    app.add_information(name="Anton``", email="Anton@o.com")
