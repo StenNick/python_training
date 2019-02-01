@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a648b37-6cac-4229-bfc2-54e5ae124025" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fixture/create_acout.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fixture/login_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_new_acount.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fixture/applcation.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/applcation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/init_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/init_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/create_acout.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/create_acout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/login_user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/parametrsGroup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/init_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_login.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,13 +20,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/init_tests.py">
+        <entry file="file://$PROJECT_DIR$/test/test_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+            <state relative-caret-position="391">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
-                <element signature="e#25#38#0" expanded="true" />
+                <element signature="e#24#37#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/test_new_acount.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+              <folding>
+                <element signature="e#24#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Python/Lib/site-packages/selenium/webdriver/common/service.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-836">
+              <caret line="75" selection-start-line="75" selection-end-line="75" />
             </state>
           </provider>
         </entry>
@@ -31,20 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/applcation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fixture/login_user.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="21" column="105" selection-start-line="21" selection-start-column="105" selection-end-line="21" selection-end-column="105" />
+            <state relative-caret-position="230">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -52,29 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/create_acout.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="37" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="483">
-                <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/parametrsGroup.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="368">
+              <caret line="27" column="59" lean-forward="true" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -100,13 +91,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/parametrsGroup.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/applcation.py" />
         <option value="$PROJECT_DIR$/init_tests.py" />
-        <option value="$PROJECT_DIR$/fixture/create_acout.py" />
-        <option value="$PROJECT_DIR$/fixture/applcation.py" />
         <option value="$PROJECT_DIR$/test/init_tests.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/model/property_user.py" />
+        <option value="$PROJECT_DIR$/fixture/applcation.py" />
         <option value="$PROJECT_DIR$/fixture/login_user.py" />
+        <option value="$PROJECT_DIR$/test/test_login.py" />
+        <option value="$PROJECT_DIR$/fixture/create_acout.py" />
+        <option value="$PROJECT_DIR$/fixture/tasks.py" />
+        <option value="$PROJECT_DIR$/test/test_new_acount.py" />
       </list>
     </option>
   </component>
@@ -127,7 +122,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,6 +148,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -182,8 +177,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="pytest in init_tests.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest in test_login.py">
+    <configuration name="pytest in test_login.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -194,13 +189,29 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/init_tests.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_login.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_new_acount.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python_training" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_new_acount.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in init_tests.py" />
+        <item itemvalue="Python tests.pytest in test_login.py" />
+        <item itemvalue="Python tests.pytest in test_new_acount.py" />
       </list>
     </recent_temporary>
   </component>
@@ -218,48 +229,48 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_init_tests_py - 2019.01.31 at 16h 00m 38s.xml">
-      <configuration name="pytest in init_tests.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_new_acount_py - 2019.02.01 at 11h 05m 57s.xml">
+      <configuration name="pytest in test_new_acount.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_init_tests_py - 2019.01.31 at 16h 56m 22s.xml">
-      <configuration name="pytest in init_tests.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_new_acount_py - 2019.02.01 at 11h 10m 58s.xml">
+      <configuration name="pytest in test_new_acount.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_init_tests_py - 2019.01.31 at 16h 57m 19s.xml">
-      <configuration name="pytest in init_tests.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_new_acount_py - 2019.02.01 at 11h 22m 17s.xml">
+      <configuration name="pytest in test_new_acount.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_init_tests_py - 2019.01.31 at 17h 00m 19s.xml">
-      <configuration name="pytest in init_tests.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_new_acount_py - 2019.02.01 at 11h 24m 52s.xml">
+      <configuration name="pytest in test_new_acount.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_init_tests_py - 2019.01.31 at 17h 01m 08s.xml">
-      <configuration name="pytest in init_tests.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_new_acount_py - 2019.02.01 at 11h 26m 07s.xml">
+      <configuration name="pytest in test_new_acount.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_init_tests_py - 2019.01.31 at 17h 01m 41s.xml">
-      <configuration name="pytest in init_tests.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_new_acount_py - 2019.02.01 at 11h 30m 23s.xml">
+      <configuration name="pytest in test_new_acount.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_init_tests_py - 2019.01.31 at 17h 20m 51s.xml">
-      <configuration name="pytest in init_tests.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_new_acount_py - 2019.02.01 at 11h 32m 22s.xml">
+      <configuration name="pytest in test_new_acount.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_init_tests_py - 2019.01.31 at 17h 27m 00s.xml">
-      <configuration name="pytest in init_tests.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_new_acount_py - 2019.02.01 at 11h 43m 50s.xml">
+      <configuration name="pytest in test_new_acount.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_init_tests_py - 2019.01.31 at 17h 27m 17s.xml">
-      <configuration name="pytest in init_tests.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_login_py - 2019.02.01 at 11h 44m 09s.xml">
+      <configuration name="pytest in test_login.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_init_tests_py - 2019.01.31 at 17h 28m 25s.xml">
-      <configuration name="pytest in init_tests.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_new_acount_py - 2019.02.01 at 13h 25m 46s.xml">
+      <configuration name="pytest in test_new_acount.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18387777" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18387777" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34994584" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34994584" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -287,54 +298,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/propertyUser.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_delete_groupTests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="483">
-            <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <first_editor relative-caret-position="874">
+            <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/parametrsGroup.py">
+    <entry file="file://$PROJECT_DIR$/model/property_user.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/login_user.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="322">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/geckodriver.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Python/Lib/site-packages/selenium/webdriver/common/service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-836">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fixture/create_acout.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="37" />
+        <state relative-caret-position="368">
+          <caret line="27" column="59" lean-forward="true" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fixture/applcation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        <state relative-caret-position="230">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
           <folding>
             <element signature="e#0#57#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/init_tests.py">
+    <entry file="file://$PROJECT_DIR$/test/test_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        <state relative-caret-position="391">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <element signature="e#25#38#0" expanded="true" />
+            <element signature="e#24#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/login_user.py">
+    <entry file="file://$PROJECT_DIR$/test/test_new_acount.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="21" column="105" selection-start-line="21" selection-start-column="105" selection-end-line="21" selection-end-column="105" />
+        <state relative-caret-position="368">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

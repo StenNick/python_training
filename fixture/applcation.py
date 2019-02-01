@@ -1,6 +1,5 @@
 from selenium.webdriver.chrome.webdriver import WebDriver
-from fixture.create_acout import Session_registration
-from fixture.login_user import Login
+
 
 class Application:
 
@@ -8,28 +7,16 @@ class Application:
         self.wd = WebDriver()  # запускаем драйвер тут
         self.wd.maximize_window()
         self.wd.implicitly_wait(60)
-        self.session = Session_registration(self)
-        self.loginUser = Login(self)
 
-    def registration(self):
+    def login_user(self, email, password):
         wd = self.wd
-        wd.find_element_by_name("act_register_now").click()
-
-    def add_user(self):
-        wd = self.wd
-        wd.find_element_by_class_name("btn-danger").click()
-
-    def add_information_about_user(self, Group):
-        wd = self.wd
-        wd.find_element_by_name("noibiz_name").clear()
-        wd.find_element_by_name("noibiz_name").send_keys(Group.name)
-        wd.find_element_by_name("noibiz_email").clear()
-        wd.find_element_by_name("noibiz_email").send_keys(Group.email)
-        wd.find_element_by_name("noibiz_password").clear()
-        wd.find_element_by_name("noibiz_password").send_keys(Group.password)
-        wd.find_element_by_name("noibiz_phone").clear()
-        wd.find_element_by_name("noibiz_phone").send_keys("891296504605")
-        wd.find_element_by_name("act_create").click()
+        wd.get("http://users.bugred.ru/")
+        wd.find_element_by_xpath("//a[@href='/user/login/index.html']").click()
+        wd.find_element_by_name("login").clear()
+        wd.find_element_by_name("login").send_keys(email)
+        wd.find_elements_by_name("password")[0].clear()
+        wd.find_elements_by_name("password")[0].send_keys(password)
+        wd.find_element_by_xpath("//input[@value='Авторизоваться']").click()
 
 
     def destroy(self):
